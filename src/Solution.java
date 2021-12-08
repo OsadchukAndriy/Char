@@ -8,7 +8,6 @@ public class Solution {
 
     public static void main(String[] args) {
         String[] d = new String[strings.length];
-
         for (int i = 0; i < strings.length; i++) {
             for (int j = i + 1; j < strings.length; j++) {
                 if (strings[i] == strings[j + 1]) {
